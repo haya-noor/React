@@ -1,0 +1,19 @@
+{
+  "name": "react-fundamentals",
+  "private": true,
+  "type": "module",
+  "scripts": {
+  "dev": "vite",
+  "dev:list": "vite --open /firstModule/list.html",
+  "dev:button": "vite --open /firstModule/button.html",
+  "dev:avatar": "vite --open /firstModule/avatar.html"
+},
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  }
+}

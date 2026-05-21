@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact list</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 2rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 24rem;
+      }
+      .contact-card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 1rem;
+      }
+      .contact-card h2 {
+        margin: 0 0 0.5rem;
+      }
+      dl {
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.25rem 1rem;
+      }
+      dt {
+        font-weight: bold;
+      }
+      dd {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/list.js"></script>
+  </body>
+</html>
