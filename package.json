@@ -6,7 +6,8 @@
   "dev": "vite",
   "dev:list": "vite --open /firstModule/list.html",
   "dev:button": "vite --open /firstModule/button.html",
-  "dev:avatar": "vite --open /firstModule/avatar.html"
+  "dev:avatar": "vite --open /firstModule/avatar.html",
+  "dev:shoppingCart": "vite --open /firstModule/shoppingCart.html"
 },
   "dependencies": {
     "react": "^18.3.1",
