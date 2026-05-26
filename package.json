@@ -8,7 +8,11 @@
   "dev:button": "vite --open /firstModule/button.html",
   "dev:avatar": "vite --open /firstModule/avatar.html",
   "dev:shoppingCart": "vite --open /firstModule/shoppingCart.html",
-  "dev:onlineTag": "vite --open /firstModule/onlineTag.html"
+  "dev:onlineTag": "vite --open /firstModule/onlineTag.html",
+  "dev:profileCard": "vite --open /firstModule/profileCard.html",
+  "dev:rangeGraph": "vite --open /firstModule/rangeGraph.html",
+  "dev:sidenoteApp": "vite --open /firstModule/sidenoteApp.html"
+
 },
   "dependencies": {
     "react": "^18.3.1",
